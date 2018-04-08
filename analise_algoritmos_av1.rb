@@ -70,7 +70,7 @@ def merge_sort(array)
         end
     end
 
-    # There is at least one element left in either part_a or part_b (not both)
+	#Há pelo menos um elemento restante em lado_esquerdo ou lado_direito (não em ambos)
     while array_esquerdo < lado_esquerdo.count
         array << lado_esquerdo[array_esquerdo]
         array_esquerdo += 1
